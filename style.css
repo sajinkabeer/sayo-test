@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, serif; color: #2b2118; background: #fdf8f0; line-height: 1.5; }
+section, .notice, footer { max-width: 640px; margin: 0 auto; padding: 16px; }
+h2 { color: #8a3b12; border-bottom: 2px solid #e8d5b5; padding-bottom: 4px; }
+.hero { text-align: center; padding: 48px 16px; background: #8a3b12; color: #fff; }
+.hero h1 { margin: 0; font-size: 2.4rem; }
+.tagline { margin: 8px 0 20px; opacity: .9; }
+.call { display: inline-block; padding: 10px 20px; border-radius: 24px; background: #f2b134; color: #2b2118; text-decoration: none; font-weight: bold; }
+.notice { margin-top: 16px; background: #fff3cd; border-left: 4px solid #f2b134; border-radius: 4px; }
+.offer { background: #fbeee0; border-radius: 8px; margin-top: 16px; }
+.offer h2 { border: 0; margin: 0 0 4px; }
+.menu { list-style: none; padding: 0; }
+.item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px dotted #d9c6a5; }
+.price { font-weight: bold; }
+footer { text-align: center; color: #8c7b66; font-size: .85rem; }
